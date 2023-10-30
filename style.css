@@ -1,0 +1,126 @@
+.body{
+    /* background-color: #F4F5F6; */
+    background-image: linear-gradient(#746D71, #969A97);
+}
+#navbb{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Georgia, serif;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar-nav a{
+    font-size: 1em;
+}
+
+.navbar-brand{
+    font-size: 1.6em;
+    text-shadow: 4px 2px 2px  black;
+    transition: 1s;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.07);
+} 
+
+.nav-link{
+    color: white;
+    transition: 1s;
+margin-left: 2em;
+}
+
+.nav-link:hover{
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+#main{
+    
+    background-image: url('https://media.istockphoto.com/id/1441581800/photo/heavy-crumpled-black-paper-texture-in-low-light-background.webp?b=1&s=170667a&w=0&k=20&c=4MmkzAdKh3zXqOf9RDvXimE0OxQpy_xIEH7cNKMYhgw=');
+    background-size: cover;
+    margin-bottom: 10%;
+}
+
+#main h3{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    padding: 10%;
+}
+#part1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 7%;
+
+}
+.b{
+    transition: 600ms;
+}
+.b:hover{
+    transform: scale(1.07);
+}
+.part2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    padding: 80px;
+    flex-wrap: wrap;
+    
+}
+.card{
+    transition: 700ms;
+    margin-bottom: 7%;
+    
+}
+.card:hover{
+    /* transform: scale(1.02); */
+    transform: rotatez(1deg);
+    box-shadow: 9px 6px 3px solid papayawhip;
+}
+
+h1{
+    text-align: center;
+    transition: 400ms;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+h1:hover{
+    transform: scale(1.05);
+}
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#venue{
+    margin-bottom: 10%;
+}
+.card-title{
+    transition: 400ms;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-title:hover{
+    transform: scale(1.05);
+}
+.card-text{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btnt{
+    display: inline-block;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1%;
+    color: white;
+    background-image: url('https://media.istockphoto.com/id/1441581800/photo/heavy-crumpled-black-paper-texture-in-low-light-background.webp?b=1&s=170667a&w=0&k=20&c=4MmkzAdKh3zXqOf9RDvXimE0OxQpy_xIEH7cNKMYhgw=');
+}
+#aboutus{
+    margin-bottom: 6%;
+}
